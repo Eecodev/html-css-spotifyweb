@@ -24,6 +24,10 @@ body{
 	top: 0;
 	right: 0;
 }
+img{
+	width: 100%;
+	display: block;
+}
 
 /* main */
 main{
@@ -46,10 +50,10 @@ ul{
 a{
 	text-decoration: none;
 }
-#recently-played{
+/* #recently-played{
 	width: 100%;
-}
-.card-container{
+} */
+.card{
 	width: calc(100% / 6);
 }
 /* side bar */
