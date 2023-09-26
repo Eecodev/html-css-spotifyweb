@@ -59,8 +59,14 @@ ul a{
 a{
 	text-decoration: none;
 }
+a:hover{
+	text-decoration-line: underline;
+}
 .card{
 	width: calc(100% / 6);
+}
+.card-img{
+	position: relative;
 }
 .card-text{
 	text-align: center;
@@ -138,6 +144,20 @@ a{
 	padding-bottom: 30px;
 }
 
+/* icons */
+.icon{
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	font-size: 50px;
+	color: var(--color-white)
+}
+.icon:hover{
+	
+}
 
 /* button */
 .btn{
