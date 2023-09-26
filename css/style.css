@@ -17,12 +17,15 @@ body{
     background-color: var(--color-dark-color);
 }
 .call-to-action{
-	background-color: var(--color-dark-grey);
+	background-color: rgb(40, 40, 40, 0.7);
 	width: calc(100% - 250px);
 	height: 70px;
 	position: fixed;
 	top: 0;
 	right: 0;
+}
+.call-to-action a{
+	color: var(--color-white);
 }
 img{
 	width: 100%;
@@ -44,17 +47,32 @@ main{
 	overflow: auto;
 	padding: 90px 30px 90px 40px;
 }
+.container h2{
+	color: var(--color-white);
+}
 ul{
 	list-style: none;
+}
+ul a{
+	color: var(--color-light-grey);
 }
 a{
 	text-decoration: none;
 }
-/* #recently-played{
-	width: 100%;
-} */
 .card{
 	width: calc(100% / 6);
+}
+.card-text{
+	text-align: center;
+	color: var(--color-white);
+}
+.card-text h3{
+	color: var(--color-white);
+	padding: 10px 0 10px 0;
+}
+.card-text small{
+	color: var(--color-light-grey);
+	padding-bottom: 10px
 }
 /* side bar */
 .side-bar{
@@ -104,11 +122,8 @@ a{
 }
 
 /* padding */
-.px-10{
-	padding-right: 10px;
-}
-.py-10{
-	padding-left: 10px;
+.p-10{
+	padding: 10px;
 }
 .px-20{
 	padding-right: 20px;
@@ -123,8 +138,10 @@ a{
 	padding-bottom: 30px;
 }
 
+
 /* button */
 .btn{
-
+	padding: 10px 25px;
+	border-radius: 20px;
 }
 
