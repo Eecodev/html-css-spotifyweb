@@ -38,8 +38,11 @@ main{
 	width: calc(100% - 250px);
 	background-color: var(--color-dark-color);
 	overflow: auto;
+	padding: 90px 30px 90px 40px;
 }
-
+ul{
+	list-style: none;
+}
 /* side bar */
 .side-bar{
 	width: 250px;
@@ -59,8 +62,34 @@ main{
 
 /* UTILITY */
 .debug{
-	border: 2px solid white;
+	border: 1px solid white;
 }
 .d-flex{
 	display: flex;
 }
+.justify-end{
+	justify-content: flex-end;
+}
+.align-center{
+	align-items: center;
+	align-content: center;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.flex-row{
+	flex-direction: row;
+}
+.flex-column{
+	flex-direction: column;
+}
+
+/* padding */
+.px-10{
+	padding-right: 10px;
+}
+.py-10{
+	padding-left: 10px;
+}
+
+/* button */
