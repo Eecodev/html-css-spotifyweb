@@ -16,3 +16,51 @@
 body{
     background-color: var(--color-dark-color);
 }
+.call-to-action{
+	background-color: var(--color-dark-grey);
+	width: calc(100% - 250px);
+	height: 70px;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+/* main */
+main{
+	width: 100%;
+	height: calc(100% - 90px);
+}
+.wrapper{
+	width: 100%;
+	height: 100vh;
+}
+.container{
+	width: calc(100% - 250px);
+	background-color: var(--color-dark-color);
+	overflow: auto;
+}
+
+/* side bar */
+.side-bar{
+	width: 250px;
+	background-color: var(--color-black);
+}
+
+/* playbar */
+.playbar{
+	width: 100%;
+	height: 90px;
+	background-color: var(--color-grey);
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+	left: 0;
+}
+
+/* UTILITY */
+.debug{
+	border: 2px solid white;
+}
+.d-flex{
+	display: flex;
+}
