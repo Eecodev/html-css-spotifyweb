@@ -49,6 +49,9 @@ a{
 #recently-played{
 	width: 100%;
 }
+.card-container{
+	width: calc(100% / 6);
+}
 /* side bar */
 .side-bar{
 	width: 250px;
@@ -79,11 +82,14 @@ a{
 .justify-center{
 	justify-content: center;
 }
+.justify-between{
+	justify-content: space-between;
+}
 .align-center{
 	align-items: center;
 	align-content: center;
 }
-.flex-wrap{
+.wrap{
 	flex-wrap: wrap;
 }
 .flex-row{
