@@ -154,6 +154,12 @@ h2{
 span{
 	display: inline-block;
 }
+hr{
+	margin: 20px;
+}
+.user{
+	margin-bottom: 10px;
+}
 
 
 /* playbar */
@@ -218,6 +224,17 @@ span{
 }
 .pb-30{
 	padding-bottom: 30px;
+}
+/* icon */
+.fa-user{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 50px;
+	overflow: hidden;
+	background-color: var(--color-grey);
 }
 
 /* button */
