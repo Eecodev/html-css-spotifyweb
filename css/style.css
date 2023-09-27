@@ -148,10 +148,13 @@ h2{
 }
 #download{
 	width: 15px;
+	display: inline-block;
+	margin-right: 10px;
 }
-.install{
+span{
 	display: inline-block;
 }
+
 
 /* playbar */
 .playbar{
