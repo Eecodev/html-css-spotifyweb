@@ -15,9 +15,12 @@
 }
 body{
     background-color: var(--color-dark-color);
+	color: var(--color-white);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
 }
 .call-to-action{
-	background-color: rgb(40, 40, 40, 0.7);
+	background-color: rgba(0, 0, 0, 0.3);
 	width: calc(100% - 250px);
 	height: 70px;
 	position: fixed;
@@ -31,6 +34,9 @@ body{
 img{
 	width: 100%;
 	display: block;
+}
+.logo{
+	width: 150px;
 }
 
 /* main */
@@ -52,6 +58,7 @@ main{
 	color: var(--color-white);
 }
 ul{
+	display: inline-block;
 	list-style: none;
 }
 ul a{
@@ -65,9 +72,13 @@ a:hover{
 }
 .card{
 	width: calc(100% / 6);
+	cursor: pointer;
 }
 .card-img{
 	position: relative;
+}
+.card-img i{
+	font-size: 2em;
 }
 .card-text{
 	text-align: center;
@@ -82,7 +93,28 @@ a:hover{
 	padding-bottom: 10px
 }
 p{
+	padding-left: 10px;
 	color: var(--color-grey)
+}
+h2{
+	padding-left: 10px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* display: none; */
+	display: flex;
+	opacity: 0;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.5s;
+}
+.card:hover .overlay{
+	opacity: 1;
 }
 /* side bar */
 .side-bar{
@@ -149,24 +181,6 @@ p{
 }
 .pb-30{
 	padding-bottom: 30px;
-}
-
-
-
-
-/* icons */
-.icon{
-	position: absolute;
-	margin: 0;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	visibility: hidden;
-	font-size: 50px;
-	color: var(--color-white)
-}
-.icon:hover + img{
-	visibility: visible;
 }
 
 /* button */
