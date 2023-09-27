@@ -98,7 +98,7 @@ a:hover{
 	padding-bottom: 10px
 }
 p{
-	padding-left: 10px;
+	/* padding-left: 10px; */
 	color: var(--color-grey)
 }
 h2{
@@ -166,11 +166,21 @@ hr{
 .playbar{
 	width: 100%;
 	height: 90px;
-	background-color: var(--color-grey);
+	padding: 10px;
+	background-color: var(--color-dark-grey);
 	position: fixed;
 	z-index: 1000;
 	bottom: 0;
 	left: 0;
+}
+.playbar-left{
+	width: 250px;
+}
+.playbar-left img{
+	width: 50px;
+}
+.playbar-right{
+	width: 250px;
 }
 
 /* UTILITY */
@@ -207,6 +217,9 @@ hr{
 .p-10{
 	padding: 10px;
 }
+.py-10{
+	padding-left: 10px;
+}
 .px-20{
 	padding-right: 20px;
 }
@@ -235,6 +248,10 @@ hr{
 	border-radius: 50px;
 	overflow: hidden;
 	background-color: var(--color-grey);
+}
+.icon{
+	padding: 5px;
+	display: inline-block;
 }
 
 /* button */
