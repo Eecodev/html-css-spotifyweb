@@ -334,7 +334,4 @@ hr{
 		width: 18px;
 		margin-bottom: 0;
 	}
-	.playbar-left, .playbar-center, .playbar-right{
-		width: 30%;
-	}
 }
