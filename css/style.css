@@ -259,4 +259,14 @@ hr{
 	padding: 10px 25px;
 	border-radius: 20px;
 }
-
+/* media query */
+@media screen and (max-width: 992px){
+	.card{
+		width: calc(100% / 2);
+	}
+}
+@media screen and (max-width: 760px){
+	.card{
+		width: calc(100% / 2);
+	}
+}
