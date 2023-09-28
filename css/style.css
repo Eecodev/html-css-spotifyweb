@@ -176,9 +176,10 @@ hr{
 .user{
 	margin-bottom: 10px;
 }
-.logo-small{
+.logo-mobile{
+	display: none;
 	width: 50px;
-	filter:grayscale()
+	filter:brightness(25)
 }
 /* playbar */
 .playbar{
@@ -312,8 +313,9 @@ hr{
 	.side-bar{
 		width: 50px;
 	}
-	.logo-small{
+	.logo-mobile{
 		padding: 10px;
+		display: block;
 	}
 	.nav-bottom{
 		display: flex;
@@ -330,5 +332,6 @@ hr{
 	}
 	#profile{
 		width: 18px;
+		margin-bottom: 0;
 	}
 }
