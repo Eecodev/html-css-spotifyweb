@@ -44,7 +44,7 @@
                     </div>
                     <hr>
                     <div class="d-flex align-center user">
-                        <i class="fa-regular fa-user"></i>
+                        <img id="profile" src="./spotify/img/profile.svg" alt="profile">
                         <span>Mahdi Nasser</span>
                     </div>
                 </div>
@@ -227,9 +227,17 @@
                 </div>
 
             </div>
-            <div class="playbar-center">
-                <div>
-                    <audio controls>
+            <div class="playbar-center d-flex align-center">
+                <div class="d-flex flex-column align-center">
+                    <div class="pt-20">
+                        <i class="fa-solid fa-shuffle p-10"></i>
+                        <i class="fa-solid fa-caret-left p-10"></i>
+                        <i class="fa-regular fa-circle-play p-10"></i>
+                        <i class="fa-solid fa-caret-right p-10"></i>
+                        <i class="fa-solid fa-arrow-rotate-right p-10"></i> 
+                    </div>
+                    
+                    <audio class="pb-30" controls>
                         <source src="./audio/169490918.mp3" type="audio/mpeg">
                     </audio>
                 </div>
