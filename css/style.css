@@ -131,15 +131,19 @@ h2{
 	overflow: hidden;
 }
 .nav-top{
-	width: 100%;
+	/* width: 100%; */
 	min-height: 480px;
 	overflow: hidden;
 }
 .nav-bottom{
 	width: 100%;
-	min-height: 30px;
+	min-height: 20px;
 }
-.nav-top ul{
+#menu{
+	padding-left: 20px;
+	padding-top: 30px;
+}
+#playlist{
 	padding-left: 20px;
 	padding-top: 30px;
 	min-height: 180px;
