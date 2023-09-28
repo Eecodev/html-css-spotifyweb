@@ -176,8 +176,11 @@ hr{
 .user{
 	margin-bottom: 10px;
 }
-
-
+.logo-small{
+	color: var(--color-white);
+	width: 30px;
+	
+}
 /* playbar */
 .playbar{
 	width: 100%;
@@ -281,13 +284,46 @@ hr{
 	border-radius: 20px;
 }
 /* media query */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
 	.card{
-		width: calc(100% / 2);
+		width: calc(100% / 4);
+	}
+}
+@media screen and (max-width: 992px){
+	.nav-main{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.card{
+		width: calc(100% / 3);
 	}
 }
 @media screen and (max-width: 760px){
 	.card{
 		width: calc(100% / 2);
+	}
+}
+@media screen and (max-width: 576px){
+	.call-to-action{
+		width: calc(100% - 50px);
+	}
+	.container{
+		width: calc(100% - 50px);
+	}
+	.side-bar{
+		width: 50px;
+	}
+	.nav-top{
+		display: none;
+	}
+	.nav-bottom{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	hr{
+		display: none;
+	}
+	.nav-bottom span{
+		display: none;
 	}
 }
