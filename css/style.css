@@ -139,6 +139,8 @@ h2{
 .nav-top ul{
 	padding-left: 20px;
 	padding-top: 30px;
+	min-height: 180px;
+	overflow-y: auto;
 }
 .nav-top li{
 	padding-top: 10px;
@@ -249,16 +251,6 @@ hr{
 	padding-bottom: 30px;
 }
 /* icon */
-.fa-user{
-	font-size: 25px;
-	margin-left: 20px;
-	margin-right: 10px;
-	border: 1px solid white;
-	text-align: center;
-	border-radius: 50px;
-	overflow: hidden;
-	background-color: var(--color-grey);
-}
 .icon{
 	padding: 5px;
 	display: inline-block;
